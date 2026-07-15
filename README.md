@@ -15,9 +15,8 @@
 
 ## Cloud & DevOps
 
-A four-project arc where I rebuild the *same* class of app on progressively deeper
-infrastructure — from a fully-managed edge platform up to a Kubernetes cluster I run
-myself. The apps stay small on purpose; the platform around them is the point.
+A cloud-engineering arc where I build and port apps onto progressively more advanced
+infrastructure. Apps generally stay small since the infrastructure is the focus.
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
