@@ -25,12 +25,9 @@ infrastructure. Apps generally stay small since the infrastructure is the focus.
 | **[cloud-habit-tracker-aws](https://github.com/genkuroo/cloud-habit-tracker-aws)** | Serverless and event-driven — no servers to manage, shipped as one SAM template | AWS Lambda · DynamoDB · CloudFront · SAM |
 | **[habit-tracker](https://github.com/genkuroo/habit-tracker)** | Where the arc started: an app on Cloudflare's edge with a serverless API and managed data | Cloudflare Pages · Workers · KV · D1 |
 
-The progression is deliberate: each step hands me more of the stack to own — from
-"the platform hides everything" (Cloudflare) to "I own the scheduler" (Kubernetes).
-
 ## Applications & Data
 
-Full builds behind the infrastructure work — the kind of app I like putting *on* the platforms above.
+Full builds that live on top of infrastructure work.
 
 | Project | What it does | Stack |
 | --- | --- | --- |
