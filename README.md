@@ -3,8 +3,7 @@
 <p align="center"><b>Cloud &amp; DevOps Engineer</b></p>
 
 <p align="center">
-  I ship real apps on real infrastructure — Terraform, containers, Kubernetes, and CI/CD —
-  and I learn a platform by building on it.
+  Learning real infrastructure — Terraform, containers, Kubernetes, and CI/CD — by building on it.
 </p>
 
 <p align="center">
