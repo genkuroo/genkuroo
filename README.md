@@ -1,8 +1,10 @@
-<h1 align="center">Hi, I'm Ethan 👋</h1>
+<h1 align="center">Ethan Fox</h1>
+
+<p align="center"><b>Cloud &amp; DevOps Engineer</b></p>
 
 <p align="center">
-  <b>Cloud &amp; DevOps engineer.</b> I ship real apps on real infrastructure —
-  Terraform, containers, Kubernetes, and CI/CD — and I learn a platform by building on it.
+  I ship real apps on real infrastructure — Terraform, containers, Kubernetes, and CI/CD —
+  and I learn a platform by building on it.
 </p>
 
 <p align="center">
@@ -12,11 +14,11 @@
 
 ---
 
-## ☁️ Cloud & DevOps
+## Cloud & DevOps
 
 A four-project arc where I rebuild the *same* class of app on progressively deeper
 infrastructure — from a fully-managed edge platform up to a Kubernetes cluster I run
-myself. The apps stay small on purpose; **the platform around them is the point.**
+myself. The apps stay small on purpose; the platform around them is the point.
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
@@ -25,12 +27,12 @@ myself. The apps stay small on purpose; **the platform around them is the point.
 | **[cloud-habit-tracker-aws](https://github.com/genkuroo/cloud-habit-tracker-aws)** | Serverless and event-driven — no servers to manage, shipped as one SAM template | AWS Lambda · DynamoDB · CloudFront · SAM |
 | **[habit-tracker](https://github.com/genkuroo/habit-tracker)** | Where the arc started: an app on Cloudflare's edge with a serverless API and managed data | Cloudflare Pages · Workers · KV · D1 |
 
-> The progression is deliberate: each step hands me more of the stack to own — from
-> "the platform hides everything" (Cloudflare) to "I own the scheduler" (Kubernetes).
+The progression is deliberate: each step hands me more of the stack to own — from
+"the platform hides everything" (Cloudflare) to "I own the scheduler" (Kubernetes).
 
-## 🐍 Applications & Data
+## Applications & Data
 
-Full builds behind the infra work — the kind of app I like putting *on* the platforms above.
+Full builds behind the infrastructure work — the kind of app I like putting *on* the platforms above.
 
 | Project | What it does | Stack |
 | --- | --- | --- |
@@ -38,31 +40,17 @@ Full builds behind the infra work — the kind of app I like putting *on* the pl
 | **[dnd-campaign-tracker](https://github.com/genkuroo/dnd-campaign-tracker)** | Multi-user, authenticated D&D 5e campaign tool — a ~3,700-line Flask app deployed on Fly.io in Docker | Flask · SQLite · Docker · Fly.io |
 | **[stock-tracker](https://github.com/genkuroo/stock-tracker)** | Portfolio CLI + dashboard with live quotes, news, and a per-ticker AI TLDR | Python · Flask · Claude API |
 
-## 🧰 Tech I work with
+## Tech I Work With
 
-<p>
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white" alt="Terraform">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white" alt="AWS">
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white" alt="Helm">
-  <img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white" alt="Argo CD">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white" alt="Prometheus">
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white" alt="Grafana">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions">
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Cloudflare">
-</p>
+**Cloud & infrastructure** — AWS · Terraform · Kubernetes · Helm · Argo CD · Docker · Cloudflare
 
-## 📫 Get in touch
+**Observability & CI/CD** — Prometheus · Grafana · GitHub Actions
 
-I'm **open to Cloud / DevOps roles.** The fastest way to reach me:
+**Languages & frameworks** — Python · FastAPI · Flask · PostgreSQL · SQLite
+
+## Contact
+
+I'm open to Cloud / DevOps roles. The fastest ways to reach me:
 
 - **LinkedIn** — [ethan-fox03](https://www.linkedin.com/in/ethan-fox03/)
 - **Email** — [ethanfox03@gmail.com](mailto:ethanfox03@gmail.com)
