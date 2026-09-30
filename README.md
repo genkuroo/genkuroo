@@ -1,9 +1,9 @@
 <h1 align="center">Ethan Fox</h1>
 
-<p align="center"><b>Cloud &amp; DevOps Engineer</b></p>
+<p align="center"><b>Site Reliability · Cloud · DevOps</b></p>
 
 <p align="center">
-  Learning real infrastructure — Terraform, containers, Kubernetes, and CI/CD — by building on it.
+  Learning real infrastructure — Terraform, containers, Kubernetes, and CI/CD — by building it, running it, and breaking it on purpose.
 </p>
 
 <p align="center">
@@ -20,7 +20,8 @@ infrastructure. Apps generally stay small since the infrastructure is the focus.
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| **[url-shortener-k8s](https://github.com/genkuroo/url-shortener-k8s)** | Running the orchestrator myself — GitOps delivery, autoscaling, and monitoring around a containerized service | Kubernetes · Helm · Argo CD · Prometheus/Grafana · HPA |
+| **[url-shortener-k8s](https://github.com/genkuroo/url-shortener-k8s)** | Running the orchestrator myself — GitOps delivery, autoscaling, and monitoring, deployed to both kind and EKS. Then a [fault-injection lab](https://github.com/genkuroo/url-shortener-k8s/blob/main/docs/SRE_LAB.md) against the live cluster that found and fixed two real bugs: health probes killing healthy pods, and a connection leak that exhausted Postgres in prod | Kubernetes · EKS · Helm · Argo CD · Prometheus/Grafana · Sealed Secrets |
+| **[homelab-pi](https://github.com/genkuroo/homelab-pi)** | A self-hosted production stack serving live users with zero inbound ports — public apps via Cloudflare Tunnel, private ones over Tailscale, systemd-timer jobs, off-site backups, and health alerting to Discord | Docker Compose · Caddy · Cloudflare Tunnel · Tailscale · systemd |
 | **[url-shortener-aws](https://github.com/genkuroo/url-shortener-aws)** | Infrastructure-as-code from an empty account: network, containers, database, and an OIDC-authenticated CI/CD pipeline | Terraform · ECS Fargate · ALB · RDS · GitHub Actions |
 | **[cloud-habit-tracker-aws](https://github.com/genkuroo/cloud-habit-tracker-aws)** | Serverless and event-driven — no servers to manage, shipped as one SAM template | AWS Lambda · DynamoDB · CloudFront · SAM |
 | **[habit-tracker](https://github.com/genkuroo/habit-tracker)** | Where the arc started: an app on Cloudflare's edge with a serverless API and managed data | Cloudflare Pages · Workers · KV · D1 |
@@ -34,6 +35,8 @@ Full builds that live on top of infrastructure work.
 | **[fitness-dashboard](https://github.com/genkuroo/fitness-dashboard)** | Unifies Strava (cardio), MyNetDiary (diet/weight), and Liftoff (strength) into one SQLite store to cross-reference training, diet, and weight on a shared timeline | Python · pandas · Flask · Chart.js |
 | **[dnd-campaign-tracker](https://github.com/genkuroo/dnd-campaign-tracker)** | Multi-user, authenticated D&D 5e campaign tool — a ~3,700-line Flask app deployed on Fly.io in Docker | Flask · SQLite · Docker · Fly.io |
 | **[stock-tracker](https://github.com/genkuroo/stock-tracker)** | Portfolio CLI + dashboard with live quotes, news, and a per-ticker AI TLDR | Python · Flask · Claude API |
+| **[ff-trade-analyzer](https://github.com/genkuroo/ff-trade-analyzer)** | Grades fantasy football trades when they happen, then re-grades them later on how they actually worked out | Python · Flask · SQLite · pytest |
+| **[sleeper-discord-bot](https://github.com/genkuroo/sleeper-discord-bot)** | Posts a fantasy league's trades and waiver moves to Discord as they happen, plus slash commands for standings and rosters | Python · discord.py · Docker |
 
 ## Tech I Work With
 
@@ -47,6 +50,8 @@ Full builds that live on top of infrastructure work.
   <a href="https://argo-cd.readthedocs.io/"><img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat&logo=argo&logoColor=white" alt="Argo CD"></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"></a>
   <a href="https://www.cloudflare.com/"><img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Cloudflare"></a>
+  <a href="https://tailscale.com/"><img src="https://img.shields.io/badge/Tailscale-242424?style=flat&logo=tailscale&logoColor=white" alt="Tailscale"></a>
+  <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"></a>
 </p>
 
 **Observability & CI/CD**
